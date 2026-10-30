@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Field notes | Gate79</title>
+<meta name="description" content="What we learn running Amazon accounts, written down without the padding. TACoS, listings, creative and operations.">
+<link rel="canonical" href="https://gate79.co.uk/insights.html">
+<!-- SAMPLE: replace gate79.example with the live domain before launch -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gate79">
+<meta property="og:title" content="Field notes | Gate79">
+<meta property="og:description" content="Field notes from the Amazon channel, written by the team that runs the accounts.">
+<meta property="og:url" content="https://gate79.co.uk/insights.html">
+<meta property="og:image" content="https://gate79.co.uk/assets/img/og-image.png">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Insights | Gate79">
+<meta name="twitter:description" content="Field notes from the Amazon channel.">
+<meta name="twitter:image" content="https://gate79.co.uk/assets/img/og-image.png">
+<meta name="theme-color" content="#020101">
+<link rel="icon" type="image/png" href="assets/brand/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/brand/favicon-180.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..600&family=Geist:wght@300..600&family=Geist+Mono:wght@400..500&display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/pages.css?v=31">
+<script>document.documentElement.classList.add('js');</script>
+<script src="assets/js/main.js" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Home","item":"https://gate79.co.uk/"},
+{"@type":"ListItem","position":2,"name":"Insights","item":"https://gate79.co.uk/insights.html"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<svg xmlns="http://www.w3.org/2000/svg" hidden aria-hidden="true">
+  <symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" /></symbol>
+  <symbol id="i-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10" />
+  <path d="M7 17 17 7" /></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7" />
+  <path d="M12 19V5" /></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" />
+  <path d="M12 5v14" /></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24" style="fill:var(--star-fill,none);stroke:var(--star-stroke,currentColor)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8" />
+  <path d="m21 21-4.3-4.3" /></symbol>
+  <symbol id="i-megaphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z" />
+  <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" /></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+  <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" /></symbol>
+  <symbol id="i-image" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+  <circle cx="9" cy="9" r="2" />
+  <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" /></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
+  <path d="m3.3 7 8.7 5 8.7-5" />
+  <path d="M12 22V12" /></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" /></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+  <line x1="4" x2="4" y1="22" y2="15" /></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+  <path d="M2 12h20" /></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16" />
+  <path d="M18 17V9" />
+  <path d="M13 17V5" />
+  <path d="M8 17v-3" /></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+  <rect width="4" height="12" x="2" y="9" />
+  <circle cx="4" cy="4" r="2" /></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></symbol>
+  <symbol id="i-x-social" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" />
+  <path d="m6 6 12 12" /></symbol>
+  <symbol id="p-bottle" viewBox="0 0 24 24" fill="currentColor"><path d="M10 2.5h4V6l1.6 2.2V20a1.6 1.6 0 0 1-1.6 1.6h-4A1.6 1.6 0 0 1 8.4 20V8.2L10 6V2.5z"/></symbol>
+  <symbol id="p-box" viewBox="0 0 24 24" fill="currentColor"><path d="M4 8l8-4 8 4v8l-8 4-8-4V8z"/></symbol>
+  <symbol id="p-lamp" viewBox="0 0 24 24" fill="currentColor"><path d="M9 3h6l3 7.5H6L9 3zM11 10.5h2V19h-2V10.5zM7.5 19h9v1.8h-9V19z"/></symbol>
+  <symbol id="p-dumbbell" viewBox="0 0 24 24" fill="currentColor"><path d="M2 9.5h3v5H2v-5zM5 8h3v8H5V8zM8 10.8h8v2.4H8v-2.4zM16 8h3v8h-3V8zM19 9.5h3v5h-3v-5z"/></symbol>
+  <symbol id="p-jar" viewBox="0 0 24 24" fill="currentColor"><path d="M7.5 2.5h9V5h-9V2.5zM7 6.2h10c.6 0 1 .5 1 1.1V19c0 1.2-1 2.2-2.2 2.2H8.2C7 21.2 6 20.2 6 19V7.3c0-.6.4-1.1 1-1.1z"/></symbol>
+  <symbol id="p-pouch" viewBox="0 0 24 24" fill="currentColor"><path d="M9 7V5.5A3 3 0 0 1 15 5.5V7h1.6L18 21H6L7.4 7H9zm1.5 0h3V5.5a1.5 1.5 0 0 0-3 0V7z"/></symbol>
+</svg>
+
+<header class="site-header" data-header>
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html" aria-label="Gate79 home">
+      <span class="brand__word">GATE<span class="brand__word-accent">79</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul class="site-nav__list">
+        <li class="site-nav__item">
+          <button class="site-nav__link nav-drop" type="button" aria-expanded="false" aria-controls="dd-services">Services <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+          <div class="dd dd--services dd--mega" id="dd-services" hidden>
+            <div class="mega__head">
+              <span class="mega__label">Services</span>
+              <a class="mega__all" href="services.html">All services <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            </div>
+            <div class="mega__grid">
+            <a class="mega__item" href="services/amazon-advertising.html"><span class="mega__icon" aria-hidden="true"><svg class="icon"><use href="#i-megaphone"/></svg></span><span class="mega__text"><span class="mega__title">Amazon advertising</span><span class="mega__desc">Sponsored and DSP run to a TACoS target.</span></span><svg class="icon mega__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            <a class="mega__item" href="services/listing-optimisation.html"><span class="mega__icon" aria-hidden="true"><svg class="icon"><use href="#i-tag"/></svg></span><span class="mega__text"><span class="mega__title">Listing optimisation</span><span class="mega__desc">Copy and galleries rebuilt from search data.</span></span><svg class="icon mega__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            <a class="mega__item" href="services/creative-and-a-plus-content.html"><span class="mega__icon" aria-hidden="true"><svg class="icon"><use href="#i-image"/></svg></span><span class="mega__text"><span class="mega__title">Creative &amp; A+ Content</span><span class="mega__desc">Main images and A+ built to rank.</span></span><svg class="icon mega__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            <a class="mega__item" href="services/account-management.html"><span class="mega__icon" aria-hidden="true"><svg class="icon"><use href="#i-box"/></svg></span><span class="mega__text"><span class="mega__title">Account management</span><span class="mega__desc">Forecasts, FBA ops and health, before they cost a day.</span></span><svg class="icon mega__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            <a class="mega__item" href="services/brand-store-and-registry.html"><span class="mega__icon" aria-hidden="true"><svg class="icon"><use href="#i-shield"/></svg></span><span class="mega__text"><span class="mega__title">Brand Store &amp; Registry</span><span class="mega__desc">Registry sorted, hijackers watched, a Store that sells.</span></span><svg class="icon mega__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            <a class="mega__item" href="services/launch-and-expansion.html"><span class="mega__icon" aria-hidden="true"><svg class="icon"><use href="#i-flag"/></svg></span><span class="mega__text"><span class="mega__title">Launch &amp; expansion</span><span class="mega__desc">New products and marketplaces, launched to a dated plan.</span></span><svg class="icon mega__arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            </div>
+            <div class="mega__foot">
+              <span class="mega__foot-text">Not sure where to start?</span>
+              <a class="mega__foot-link" href="contact.html">Book a growth audit <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            </div>
+          </div>
+        </li>
+        <li class="site-nav__item"><a class="site-nav__link" href="work.html">Work</a></li>
+        <li class="site-nav__item"><a class="site-nav__link" href="pricing.html">Pricing</a></li>
+        <li class="site-nav__item">
+          <button class="site-nav__link nav-drop" type="button" aria-expanded="false" aria-controls="dd-about">About <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+          <div class="dd dd--about" id="dd-about" hidden>
+            <a class="dd__link" href="about.html"><svg class="icon" aria-hidden="true"><use href="#i-flag"/></svg>About Gate79</a>
+            <a class="dd__link" href="testimonials.html"><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg>Testimonials</a>
+          </div>
+        </li>
+        <li class="site-nav__item"><a class="site-nav__link" href="insights.html" aria-current="page">Insights</a></li>
+      </ul>
+    </nav>
+    <div class="site-header__actions">
+      <a class="btn-pill btn-pill--dark-header" href="contact.html">Book a growth audit<span class="btn-pill__dot" aria-hidden="true"><svg class="icon"><use href="#i-arrow-up-right"/></svg></span></a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-menu">
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle__box" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" data-menu hidden>
+  <div class="mobile-menu__bar">
+    <span class="brand__word brand__word--menu">GATE<span class="brand__word-accent">79</span></span>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="true" aria-label="Close menu">
+      <span class="nav-toggle__box" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </div>
+  <nav aria-label="Mobile">
+    <ul class="mobile-menu__list">
+      <li>
+        <button class="mm-acc__btn" type="button" aria-expanded="false" aria-controls="mm-services">Services <svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button>
+        <div class="mm-acc__panel" id="mm-services" hidden>
+          <a href="services/amazon-advertising.html"><svg class="icon" aria-hidden="true"><use href="#i-megaphone"/></svg>Amazon advertising</a>
+          <a href="services/listing-optimisation.html"><svg class="icon" aria-hidden="true"><use href="#i-tag"/></svg>Listing optimisation</a>
+          <a href="services/creative-and-a-plus-content.html"><svg class="icon" aria-hidden="true"><use href="#i-image"/></svg>Creative &amp; A+ Content</a>
+          <a href="services/account-management.html"><svg class="icon" aria-hidden="true"><use href="#i-box"/></svg>Account management</a>
+          <a href="services/brand-store-and-registry.html"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg>Brand Store &amp; Registry</a>
+          <a href="services/launch-and-expansion.html"><svg class="icon" aria-hidden="true"><use href="#i-flag"/></svg>Launch &amp; expansion</a>
+        </div>
+      </li>
+      <li><a class="mobile-menu__link" href="work.html">Work</a></li>
+      <li><a class="mobile-menu__link" href="pricing.html">Pricing</a></li>
+      <li><a class="mobile-menu__link" href="about.html">About</a></li>
+      <li><a class="mobile-menu__link" href="testimonials.html">Testimonials</a></li>
+      <li><a class="mobile-menu__link" href="insights.html" aria-current="page">Insights</a></li>
+      <li><a class="mobile-menu__link" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="mobile-menu__cta">
+    <a class="btn btn--primary" href="contact.html">Book a growth audit</a>
+  </div>
+  <div class="mobile-menu__meta">
+    <!-- SAMPLE: replace contact details with real data -->
+    <p><a href="mailto:hello@gate79.agency" class="u-anywhere">hello@gate79.agency</a><br><a href="tel:+442079460958">+44 20 7946 0958</a></p>
+    <p>The way in, and the way up.</p>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- DEMO: stock photography from Unsplash/Pexels, see assets/img/stock/CREDITS.md; replace before launch -->
+
+  <!-- ============ HERO (Black) ============ -->
+  <section class="page-hero band band--black" aria-labelledby="insights-hero-title">
+    <div class="container">
+      <div class="page-hero__inner">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><span aria-current="page">Insights</span></li>
+          </ol>
+        </nav>
+        <h1 class="page-hero__title" id="insights-hero-title">Field notes <span class="accent">from the channel</span></h1>
+        <p class="page-hero__lede">What we learn running Amazon accounts, written down without the padding.</p>
+        <div class="searchbar">
+          <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+          <label class="sr-only" for="journal-search">Search the journal</label>
+          <input class="searchbar__input" id="journal-search" type="search" placeholder="Search titles and topics" data-search>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED (White) ============ -->
+  <section class="section band band--white" aria-labelledby="featured-title">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="section-head__eyebrow">Latest</p>
+        <h2 class="section-head__title" id="featured-title">The one to <span class="accent">read first</span></h2>
+      </div>
+      <!-- SAMPLE: replace featured article with real data -->
+      <a class="feat-post card--hover" href="article.html" data-reveal data-search-item>
+        <div class="feat-post__media">
+          <div class="ph">
+            <picture>
+              <source srcset="assets/img/stock/insight-tacos.webp" type="image/webp">
+              <img src="assets/img/stock/insight-tacos.jpg" alt="Channel cost sheets marked up by hand at a workspace desk" width="1200" height="750" loading="lazy" decoding="async">
+            </picture>
+          </div>
+        </div>
+        <div class="feat-post__body">
+          <span class="pill pill--stone">Advertising</span>
+          <h3 class="feat-post__title">How to read TACoS without fooling yourself</h3>
+          <p class="svc-card__desc">Total advertising cost of sales is the honest ad metric, and the easiest one to get backwards. Three traps, and the cadence that avoids them.</p>
+          <p class="post-meta"><span>14 Oct 2026</span><span class="dot" aria-hidden="true"></span><span>6 min read</span></p>
+          <p><span class="text-link">Read the article <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ GRID + FILTERS (Stone) ============ -->
+  <section class="section band band--stone" aria-labelledby="all-title">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <h2 class="section-head__title" id="all-title">Everything in <span class="accent">the journal</span></h2>
+      </div>
+      <div class="filters" role="group" aria-label="Filter articles" data-filters data-reveal>
+        <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-filter="advertising" aria-pressed="false">Advertising</button>
+        <button class="chip" type="button" data-filter="listings" aria-pressed="false">Listings</button>
+        <button class="chip" type="button" data-filter="creative" aria-pressed="false">Creative</button>
+        <button class="chip" type="button" data-filter="operations" aria-pressed="false">Operations</button>
+        <button class="chip" type="button" data-filter="marketplaces" aria-pressed="false">Marketplaces</button>
+      </div>
+      <!-- SAMPLE: replace articles with real data; link each card to its own page when built -->
+      <div class="post-grid mt-8" data-filter-grid data-reveal-group>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="creative" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-images.webp" type="image/webp">
+                <img src="assets/img/stock/insight-images.jpg" alt="Eyeshadow palette and brushes, a gallery-ready flat lay" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Creative</span><span>30 Sep 2026</span></p>
+            <h3 class="post-card__title">The five images every main listing needs</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="advertising" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-dsp.webp" type="image/webp">
+                <img src="assets/img/stock/insight-dsp.jpg" alt="Programmatic dashboards running on a dark screen" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Advertising</span><span>16 Sep 2026</span></p>
+            <h3 class="post-card__title">When to switch on DSP</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="operations" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-buybox.webp" type="image/webp">
+                <img src="assets/img/stock/insight-buybox.jpg" alt="Team reviewing Buy Box performance at shared desks" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Operations</span><span>02 Sep 2026</span></p>
+            <h3 class="post-card__title">Buy Box maths: what actually moves the needle</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="advertising" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-harvest.webp" type="image/webp">
+                <img src="assets/img/stock/insight-harvest.jpg" alt="Calculator and search-term notes from a harvest session" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Advertising</span><span>19 Aug 2026</span></p>
+            <h3 class="post-card__title">Keyword harvesting: a 30-day cadence</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="operations" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-pricing.webp" type="image/webp">
+                <img src="assets/img/stock/insight-pricing.jpg" alt="Working a price test with a calculator and printed orders" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Operations</span><span>05 Aug 2026</span></p>
+            <h3 class="post-card__title">Pricing experiments that don't torch margin</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="creative" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-store.webp" type="image/webp">
+                <img src="assets/img/stock/insight-store.jpg" alt="Storefront previews across laptop and phone screens" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Creative</span><span>22 Jul 2026</span></p>
+            <h3 class="post-card__title">Brand Store pages that sell the range</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="marketplaces" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-eu.webp" type="image/webp">
+                <img src="assets/img/stock/insight-eu.jpg" alt="A quiet European street, the next marketplace on the list" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Marketplaces</span><span>08 Jul 2026</span></p>
+            <h3 class="post-card__title">Launching in the EU: the first 90 days</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="listings" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-reviews.webp" type="image/webp">
+                <img src="assets/img/stock/insight-reviews.jpg" alt="A review log open beside a fountain pen" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Listings</span><span>24 Jun 2026</span></p>
+            <h3 class="post-card__title">Review velocity and why it stalls</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+        <a class="post-card card--hover" href="article.html" data-filter-item data-cats="listings" data-search-item>
+          <div class="post-card__media">
+            <div class="ph">
+              <picture>
+                <source srcset="assets/img/stock/insight-backend.webp" type="image/webp">
+                <img src="assets/img/stock/insight-backend.jpg" alt="Backend search terms filled in inside a dark editor" width="1200" height="750" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="post-card__body">
+            <p class="post-meta"><span class="pill pill--white">Listings</span><span>10 Jun 2026</span></p>
+            <h3 class="post-card__title">Backend search terms: the honest guide</h3>
+            <p class="post-card__foot"><span class="text-link">Read the article</span><span class="post-card__arrow"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></span></p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER (Ice) ============ -->
+  <section class="section section--tight band band--ice" aria-labelledby="news-title">
+    <div class="container">
+      <div class="newsletter-band" data-reveal>
+        <div>
+          <p class="eyebrow">Field notes, by email</p>
+          <h2 class="section-head__title mt-8" id="news-title">One email a month. <span class="accent">No padding.</span></h2>
+        </div>
+        <div>
+          <form class="newsletter" data-newsletter novalidate>
+            <label class="sr-only" for="journal-email">Work email</label>
+            <div class="newsletter__field">
+              <input class="newsletter__input" id="journal-email" name="email" type="email" placeholder="Work email" autocomplete="email">
+            </div>
+            <button class="btn btn--dark" type="submit">Sign up</button>
+          </form>
+          <p class="newsletter__status mt-8" data-newsletter-status role="status"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA CARD (Stone ground, Black card) ============ -->
+  <section class="section section--tight band band--stone" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="cta-card" data-reveal>
+        <div>
+          <p class="eyebrow">Next step</p>
+          <h2 class="cta-card__title mt-8" id="cta-title">Reading is the <span class="accent">cheap part</span></h2>
+          <p class="cta-card__text">The audit tells you what your own account is saying, in writing, in 10 working days.</p>
+        </div>
+        <a class="btn btn--primary" href="contact.html">Book a growth audit <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="f-panel">
+    <div class="container">
+      <div class="f-grid">
+        <div class="f-brand">
+          <p class="f-title">The marketplace growth agency for brands that sell on Amazon.</p>
+          <p class="f-copy">&copy; <span data-year>2026</span> Gate79. Independent marketplace growth agency.</p>
+          </div>
+        <nav class="f-cols" aria-label="Footer">
+          <div class="f-col">
+            <h2 class="f-col__heading">Navigation</h2>
+            <div class="f-col__links">
+              <a href="about.html">About</a>
+              <a href="work.html">Work</a>
+              <a href="pricing.html">Pricing</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="f-col">
+            <h2 class="f-col__heading">Services</h2>
+            <div class="f-col__links">
+              <a href="services/amazon-advertising.html">Amazon advertising</a>
+              <a href="services/listing-optimisation.html">Listing optimisation</a>
+              <a href="services/creative-and-a-plus-content.html">Creative &amp; A+ Content</a>
+              <a href="services/account-management.html">Account management</a>
+              <a href="services/brand-store-and-registry.html">Brand Store &amp; Registry</a>
+              <a href="services/launch-and-expansion.html">Launch &amp; expansion</a>
+            </div>
+          </div>
+          <div class="f-col">
+            <h2 class="f-col__heading">Resources</h2>
+            <div class="f-col__links">
+              <a href="insights.html">Insights</a>
+              <a href="article.html">Field notes: TACoS</a>
+              <a href="case-study.html">Case study</a>
+              <a href="privacy.html">Privacy</a>
+              <a href="terms.html">Terms</a>
+            </div>
+          </div>
+        </nav>
+        <div class="f-side">
+          <p class="f-news__label">Field notes, once a month.</p>
+          <form class="f-news" data-newsletter>
+            <label class="sr-only" for="nl-email">Work email</label>
+            <input class="f-news__input" id="nl-email" type="email" name="email" placeholder="Work email" autocomplete="email" required>
+            <button class="f-news__btn" type="submit">Subscribe</button>
+            <p class="f-news__status" data-newsletter-status role="status"></p>
+          </form>
+          <div class="f-follow">
+            <p class="f-news__label">Follow us</p>
+            <ul class="f-social">
+            <li><a class="f-social__link" href="https://www.linkedin.com/company/gate79" rel="noopener" aria-label="Gate79 on LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+            <li><a class="f-social__link" href="https://www.instagram.com/gate79.agency" rel="noopener" aria-label="Gate79 on Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+            <li><a class="f-social__link" href="https://x.com/gate79agency" rel="noopener" aria-label="Gate79 on X"><svg class="icon" aria-hidden="true"><use href="#i-x-social"/></svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="f-word" aria-hidden="true">
+        <svg viewBox="0 0 1160 172" focusable="false">
+          <text class="f-word__text" x="580" y="126" text-anchor="middle">GATE<tspan class="f-word__accent">79</tspan></text>
+        </svg>
+      </div>
+      <button class="to-top--round" type="button" data-to-top aria-label="Back to top"><span class="to-top__ring" aria-hidden="true"></span><svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg></button>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-bar" data-cookie hidden role="region" aria-label="Cookie notice">
+  <p class="cookie-bar__text">We use essential cookies to run this site, and optional analytics to see what's read. <a href="privacy.html">Privacy policy</a>.</p>
+  <div class="cookie-bar__actions">
+    <button class="btn btn--primary btn--sm" type="button" data-cookie-accept>Accept</button>
+    <button class="btn btn--secondary btn--sm" type="button" data-cookie-settings>Settings</button>
+  </div>
+  <div class="cookie-bar__settings" data-cookie-panel>
+    <label class="checkbox u-flex-1">
+      <input class="checkbox__input" type="checkbox" data-cookie-analytics checked>
+      <span>Analytics cookies help us see which articles are read. Essential cookies stay on either way.</span>
+    </label>
+    <button class="btn btn--primary btn--sm" type="button" data-cookie-save>Save</button>
+  </div>
+</div>
+
+</body>
+</html>

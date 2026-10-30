@@ -1,0 +1,626 @@
+{
+ "pages": {
+  "404.html @ 1366": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "404.html @ 768": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "404.html @ 390": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "404.html @ 320": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "about.html @ 1366": {
+   "pass": true,
+   "titles": 9,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "about.html @ 768": {
+   "pass": true,
+   "titles": 9,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "about.html @ 390": {
+   "pass": true,
+   "titles": 9,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "about.html @ 320": {
+   "pass": true,
+   "titles": 9,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "article.html @ 1366": {
+   "pass": true,
+   "titles": 2,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "article.html @ 768": {
+   "pass": true,
+   "titles": 2,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "article.html @ 390": {
+   "pass": true,
+   "titles": 2,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "article.html @ 320": {
+   "pass": true,
+   "titles": 2,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "case-study.html @ 1366": {
+   "pass": true,
+   "titles": 6,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "case-study.html @ 768": {
+   "pass": true,
+   "titles": 6,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "case-study.html @ 390": {
+   "pass": true,
+   "titles": 6,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "case-study.html @ 320": {
+   "pass": true,
+   "titles": 6,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "contact.html @ 1366": {
+   "pass": true,
+   "titles": 5,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "contact.html @ 768": {
+   "pass": true,
+   "titles": 5,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "contact.html @ 390": {
+   "pass": true,
+   "titles": 5,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "contact.html @ 320": {
+   "pass": true,
+   "titles": 5,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "index.html @ 1366": {
+   "pass": true,
+   "titles": 13,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "index.html @ 768": {
+   "pass": true,
+   "titles": 13,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "index.html @ 390": {
+   "pass": true,
+   "titles": 13,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "index.html @ 320": {
+   "pass": true,
+   "titles": 13,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "insights.html @ 1366": {
+   "pass": true,
+   "titles": 5,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "insights.html @ 768": {
+   "pass": true,
+   "titles": 5,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "insights.html @ 390": {
+   "pass": true,
+   "titles": 5,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "insights.html @ 320": {
+   "pass": true,
+   "titles": 5,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "pricing.html @ 1366": {
+   "pass": true,
+   "titles": 7,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "pricing.html @ 768": {
+   "pass": true,
+   "titles": 7,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "pricing.html @ 390": {
+   "pass": true,
+   "titles": 7,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "pricing.html @ 320": {
+   "pass": true,
+   "titles": 7,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "privacy.html @ 1366": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "privacy.html @ 768": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "privacy.html @ 390": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "privacy.html @ 320": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services.html @ 1366": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services.html @ 768": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services.html @ 390": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services.html @ 320": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "terms.html @ 1366": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "terms.html @ 768": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "terms.html @ 390": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "terms.html @ 320": {
+   "pass": true,
+   "titles": 1,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "testimonials.html @ 1366": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "testimonials.html @ 768": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "testimonials.html @ 390": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "testimonials.html @ 320": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "work.html @ 1366": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "work.html @ 768": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "work.html @ 390": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "work.html @ 320": {
+   "pass": true,
+   "titles": 4,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/account-management.html @ 1366": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/account-management.html @ 768": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/account-management.html @ 390": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/account-management.html @ 320": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/amazon-advertising.html @ 1366": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/amazon-advertising.html @ 768": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/amazon-advertising.html @ 390": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/amazon-advertising.html @ 320": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/brand-store-and-registry.html @ 1366": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/brand-store-and-registry.html @ 768": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/brand-store-and-registry.html @ 390": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/brand-store-and-registry.html @ 320": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/creative-and-a-plus-content.html @ 1366": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/creative-and-a-plus-content.html @ 768": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/creative-and-a-plus-content.html @ 390": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/creative-and-a-plus-content.html @ 320": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/launch-and-expansion.html @ 1366": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/launch-and-expansion.html @ 768": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/launch-and-expansion.html @ 390": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/launch-and-expansion.html @ 320": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/listing-optimisation.html @ 1366": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/listing-optimisation.html @ 768": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/listing-optimisation.html @ 390": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  },
+  "services/listing-optimisation.html @ 320": {
+   "pass": true,
+   "titles": 11,
+   "bad": [],
+   "dup": [],
+   "overflow": false,
+   "console": []
+  }
+ },
+ "reducedMotion": {
+  "index.html": {
+   "pass": true,
+   "checked": 13
+  },
+  "about.html": {
+   "pass": true,
+   "checked": 9
+  },
+  "services/listing-optimisation.html": {
+   "pass": true,
+   "checked": 11
+  }
+ }
+}
