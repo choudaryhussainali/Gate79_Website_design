@@ -1,0 +1,57 @@
+@layer reset, tokens, base, layout, components, pages, utilities;
+@layer tokens {
+:root {
+--ice: #D7F55B;
+--black: #0D0F0E;
+--stone: #E4E1DD;
+--white: #F5F4F1;
+--graphite: #4E544C;
+--ice-deep: #55701A;
+--carbon: #12291F;
+  --forest: #12291F;
+--line: #2E3B32;
+--line-light: rgba(13, 15, 14, .12);
+--font-display: "Archivo", system-ui, sans-serif;
+--font-sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+--font-mono: "Geist Mono", ui-monospace, "SFMono-Regular", monospace;
+--t-display: clamp(2.5rem, 5vw, 4rem);
+--t-h1: clamp(2.25rem, 4.2vw, 3.5rem);
+--t-h2: clamp(1.875rem, 3.4vw, 2.75rem);
+--t-h3: clamp(1.125rem, 1.3vw, 1.25rem);
+--t-lead: clamp(1rem, 1.25vw, 1.125rem);
+--t-body: clamp(1rem, 1.02vw, 1.0625rem);
+--t-small: .875rem;
+--t-xs: .8125rem;
+--t-label: .75rem;
+--t-metric: clamp(1.75rem, 3.2vw, 2.75rem);
+--t-num: clamp(1.25rem, 1.8vw, 1.5rem);
+--t-button: .9375rem;
+--s-1: 4px;  --s-2: 8px;   --s-3: 12px;  --s-4: 16px;
+--s-5: 24px; --s-6: 32px;  --s-7: 40px;  --s-8: 48px;
+--s-9: 64px; --s-10: 80px; --s-11: 96px; --s-12: 128px;
+--s-13: 160px;
+--r-sm: 12px;
+--r-md: 16px;
+--r-lg: 24px;
+--r-pill: 999px;
+--shadow: 0 1px 2px rgba(13, 15, 14, .04), 0 12px 32px rgba(13, 15, 14, .08);
+--shadow-lift: 0 2px 4px rgba(13, 15, 14, .06), 0 18px 44px rgba(13, 15, 14, .12);
+--max: 1200px;
+--gutter: 16px;
+--col-gap: clamp(16px, 2vw, 24px);
+--section-y: clamp(72px, 9vw, 128px);
+--reading: 68ch;
+--header-h: 72px;
+--marquee-dur: 40s;
+@media (min-width: 600px) { :root { --gutter: 24px; } }
+@media (min-width: 1024px) { :root { --gutter: 32px; } }
+--ease-out: cubic-bezier(.16, 1, .3, 1);
+--dur-1: 150ms;
+--dur-2: 300ms;
+--dur-3: 500ms;
+--z-header: 50;
+--z-menu: 60;
+--z-cookie: 70;
+--z-progress: 80;
+}
+}

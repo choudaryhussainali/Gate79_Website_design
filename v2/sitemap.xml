@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAMPLE: replace gate79.co.uk with the live domain before launch -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://gate79.co.uk/404.html</loc></url>
+  <url><loc>https://gate79.co.uk/about.html</loc></url>
+  <url><loc>https://gate79.co.uk/article.html</loc></url>
+  <url><loc>https://gate79.co.uk/case-study.html</loc></url>
+  <url><loc>https://gate79.co.uk/contact.html</loc></url>
+  <url><loc>https://gate79.co.uk/</loc></url>
+  <url><loc>https://gate79.co.uk/insights.html</loc></url>
+  <url><loc>https://gate79.co.uk/pricing.html</loc></url>
+  <url><loc>https://gate79.co.uk/privacy.html</loc></url>
+  <url><loc>https://gate79.co.uk/services.html</loc></url>
+  <url><loc>https://gate79.co.uk/terms.html</loc></url>
+  <url><loc>https://gate79.co.uk/testimonials.html</loc></url>
+  <url><loc>https://gate79.co.uk/work.html</loc></url>
+  <url><loc>https://gate79.co.uk/services/account-management.html</loc></url>
+  <url><loc>https://gate79.co.uk/services/amazon-advertising.html</loc></url>
+  <url><loc>https://gate79.co.uk/services/brand-store-and-registry.html</loc></url>
+  <url><loc>https://gate79.co.uk/services/creative-and-a-plus-content.html</loc></url>
+  <url><loc>https://gate79.co.uk/services/launch-and-expansion.html</loc></url>
+  <url><loc>https://gate79.co.uk/services/listing-optimisation.html</loc></url>
+</urlset>
